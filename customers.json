@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Robert Crocker",
+    "company": "Viz Simply",
+    "phone": "444-555-6666"
+  },
+  {
+    "id": 2,
+    "name": "Lisa Du",
+    "company": "Readytechgo",
+    "phone": "444-555-6666"
+  },
+  {
+    "id": 3,
+    "name": "Ivett Kovacs",
+    "company": "Starschema",
+    "phone": "444-555-6666"
+  }
+]
