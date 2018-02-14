@@ -12,14 +12,13 @@ function loadCustomer(e) {
     if(this.status === 200) {
       // console.log(this.responseText);
       const customer = JSON.parse(this.responseText)
-      const output = `
-      <ul>
-        <li>${customer.id}</li>
-        <li>${customer.name}</li>
-        <li>${customer.company}</li>
-        <li>${customer.phone}</li>
-      </ul>
-      `;
+      const output =
+      `<ul>
+        <li>ID: ${customer.id}</li>
+        <li>Name: ${customer.name}</li>
+        <li>Company: ${customer.company}</li>
+        <li>Phone: ${customer.phone}</li>
+      </ul>`;
       document.querySelector("#customer").innerHTML = output;
     }
   };
@@ -41,12 +40,12 @@ function loadCustomers(e) {
 
       let output = '';
       customers.forEach(function(customer) {
-        output += 
+        output +=
         `<ul>
-          <li>${customer.id}</li>
-          <li>${customer.name}</li>
-          <li>${customer.company}</li>
-          <li>${customer.phone}</li>
+          <li>ID: ${customer.id}</li>
+          <li>Name: ${customer.name}</li>
+          <li>Company: ${customer.company}</li>
+          <li>Phone: ${customer.phone}</li>
         </ul>`;
       })
 
